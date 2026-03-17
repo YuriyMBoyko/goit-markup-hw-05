@@ -527,7 +527,7 @@ main {
 }
 
 .footer-subscribe-wrapper{
-  width: 100%;
+  flex-grow: 1;
   margin-left: 80px;
 }
 
