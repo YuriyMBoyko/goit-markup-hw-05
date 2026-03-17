@@ -450,6 +450,7 @@ main {
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 0;
 }
 
 .footer-logo-wrapper{
@@ -524,7 +525,7 @@ main {
 }
 
 .footer-subscribe-wrapper{
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer-subscribe-title {
@@ -819,10 +820,18 @@ main {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-checkbox-privacy-image {
+  fill: transparent;
+}
+
 .modal-checkbox-privacy-input:checked + .modal-checkbox-privacy-label .modal-checkbox-privacy-image-wrapper {
   border: 1px solid var(--ocean);
   border-radius: 2px;
   background-color: var(--ocean);
+  fill: var(--cloud);
+}
+
+.modal-checkbox-privacy-input:checked + .modal-checkbox-privacy-label .modal-checkbox-privacy-image-wrapper .modal-checkbox-privacy-image{
   fill: var(--cloud);
 }
 
