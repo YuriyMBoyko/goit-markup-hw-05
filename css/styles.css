@@ -449,9 +449,7 @@ main {
 
 .footer-container {
   display: flex;
-  justify-content: center;
   align-items: baseline;
-  gap: 0;
 }
 
 .footer-logo-wrapper{
