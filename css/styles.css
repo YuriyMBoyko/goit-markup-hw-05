@@ -449,12 +449,13 @@ main {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+/*  justify-content: space-between;*/
   align-items: baseline;
 /*  gap: 120px;*/
 }
 
 .footer-logo-wrapper{
+  width: 264px;
   margin-right: 120px;
 }
 
@@ -526,6 +527,7 @@ main {
 }
 
 .footer-subscribe-wrapper{
+  width: 100%;
   margin-left: 80px;
 }
 
@@ -553,7 +555,7 @@ main {
   padding-left: 16px;
   border: 1px solid var(--white);
   border-radius: 4px;
-  width: 264px;
+  min-width: 264px;
   min-height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   outline: none;
@@ -570,7 +572,7 @@ main {
 }
 
 .footer-subscribe-button {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   display: flex;
