@@ -547,7 +547,7 @@ main {
 .footer-subscribe-input-label {
   min-width: 264px;
   min-height: 40px;
-  flex-grow: 1;
+/*  flex-grow: 1;*/
 }
 
 .footer-subscribe-input-field {
@@ -580,6 +580,7 @@ main {
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
+/*  flex-grow: 1;*/
   display: flex;
   align-items: center;
   justify-content: center;
