@@ -449,8 +449,9 @@ main {
 
 .footer-container {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
-  gap: 0;
+/*  gap: 120px;*/
 }
 
 .footer-logo-wrapper{
@@ -474,7 +475,7 @@ main {
 }
 
 .footer-text {
-  max-width: 264px;
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -525,7 +526,7 @@ main {
 }
 
 .footer-subscribe-wrapper{
-  margin-left: auto;
+  margin-left: 80px;
 }
 
 .footer-subscribe-title {
