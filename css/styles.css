@@ -449,8 +449,13 @@ main {
 
 .footer-container {
   display: flex;
+  justify-content: center;
   align-items: baseline;
   gap: 0;
+}
+
+.footer-logo-wrapper{
+  margin-right: 120px;
 }
 
 .footer-logo-link {
@@ -475,10 +480,6 @@ main {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud);
-}
-
-.footer-icons-wrapper{
-  margin-left: 120px;
 }
 
 .footer-icons-text {
@@ -556,7 +557,7 @@ main {
   min-height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   outline: none;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-subscribe-input-field::placeholder {
@@ -565,7 +566,7 @@ main {
 
 .footer-subscribe-input-field:hover,
 .footer-subscribe-input-field:focus {
-  border: 1px solid var(--green);
+  border-color: var(--green);
 }
 
 .footer-subscribe-button {
