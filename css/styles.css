@@ -525,10 +525,14 @@ main {
   fill: var(--cloud);
 }
 
+.footer-spacer {
+  flex-grow: 1;
+}
+/*
 .footer-subscribe-wrapper{
   margin-left: 80px;
 }
-
+*/
 .footer-subscribe-title {
   font-weight: 500;
   font-size: 16px;
