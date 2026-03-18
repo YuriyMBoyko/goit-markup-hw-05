@@ -449,7 +449,6 @@ main {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -525,14 +524,10 @@ main {
   fill: var(--cloud);
 }
 
-.footer-spacer {
-  flex-grow: 1;
-}
-/*
 .footer-subscribe-wrapper{
-  margin-left: 80px;
+  margin-left: auto;
 }
-*/
+
 .footer-subscribe-title {
   font-weight: 500;
   font-size: 16px;
@@ -578,7 +573,6 @@ main {
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
-/*  flex-grow: 1;*/
   display: flex;
   align-items: center;
   justify-content: center;
